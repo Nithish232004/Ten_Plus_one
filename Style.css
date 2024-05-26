@@ -25,13 +25,13 @@ body{
 }
 
 .table2{
-    width: 80%;
+    width: 40%;
     border-radius: 10px;
     overflow: hidden;
     margin-top: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     background-color: #ffffff;
-   table-layout:fixed; 
+ 
 }
 
 
