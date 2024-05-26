@@ -24,6 +24,16 @@ table{
     table-layout:fixed;
 }
 
+.table2{
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+  
+}
+
 
 th {
     background-color: #4c87af; 
