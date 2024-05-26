@@ -15,41 +15,33 @@ body{
     width: 25%;
 }
 
-.table1 {
-    width: 50%;
+table{
+    width: 20%;
     border-radius: 10px;
     overflow: hidden;
-    margin-top: 30px;
+    margin-top: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     background-color: #ffffff;
 }
 
-.table2 {
-    width: 100%;
-    border-radius: 10px;
-    overflow: hidden;
-    margin-top: 30px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    background-color: #ffffff;
-}
 
 th {
-    background-color: #4caf50; /* Dark green */
+    background-color: #4c87af; 
     color: white;
-    padding: 6px;
-    text-align: left;
+    padding: 5px;
+    text-align: center;
 }
 
 tr:nth-child(even) {
-    background-color: #ed2939; /* Light gray */
+    background-color: #29eda2; 
 }
 
 
 td {
-    padding: 6px;
+    padding: 8px;
     padding-left: 25px;
-    text-align:left;
-    border-bottom: 1px solid #ddd;
+    text-align:center;
+    border-bottom: 1px solid #2c2828;
     margin: 100px;
     
 }
@@ -62,6 +54,18 @@ table {
     margin: auto;
 }
 
+.button {
+   
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    width: 15%;
+    border-radius: 10px;
+    background-color: #000000;
+  }
+
 
 @media only screen and (max-width: 600px) {
     .in{
@@ -72,3 +76,4 @@ table {
     }
    
   }
+
