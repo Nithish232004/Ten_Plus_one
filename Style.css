@@ -37,8 +37,8 @@ tr:nth-child(even) {
 
 
 td {
-    padding: 8px;
-    padding-left: 25px;
+    padding: 10px;
+ 
     text-align:center;
     border-bottom: 1px solid #2c2828;
     margin: 100px;
