@@ -22,7 +22,9 @@ table{
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     background-color: #ffffff;
 }
-
+table { 
+    table-layout:fixed;
+}
 
 th {
     background-color: #4c87af; 
@@ -75,4 +77,12 @@ table {
     }
    
   }
+
+    @media only screen and (max-width: 480px) {
+    /* horizontal scrollbar for tables if mobile screen */
+    .tablemobile {
+        overflow-x: auto;
+        display: block;
+    }
+}
 
