@@ -15,7 +15,7 @@ body{
 }
 
 table{
-    width: 30%;
+    width: 40%;
     border-radius: 10px;
     overflow: hidden;
     margin-top: 20px;
@@ -39,7 +39,7 @@ tr:nth-child(even) {
 td {
  
     text-align:center;
-    padding: 5px;
+    padding: 3px;
     border-bottom: 1px solid #2c2828;
     margin: 100px;
     
