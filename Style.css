@@ -15,16 +15,15 @@ body{
 }
 
 table{
-    width: 40%;
+    width: 50%;
     border-radius: 10px;
     overflow: hidden;
     margin-top: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     background-color: #ffffff;
-}
-table { 
     table-layout:fixed;
 }
+
 
 th {
     background-color: #4c87af; 
@@ -41,7 +40,6 @@ tr:nth-child(even) {
 td {
  
     text-align:center;
-    padding: 3px;
     border-bottom: 1px solid #2c2828;
     margin: 100px;
     
